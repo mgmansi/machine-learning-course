@@ -39,4 +39,4 @@ data['age'] = data['age'].astype('float')
 
 data.drop(labels=['name','ticket', 'boat', 'body','home.dest'], axis=1, inplace=True)
 
-data.to_csv('titanic.csv', index=False)
+data.to_csv('titanic1.csv', index=False)
